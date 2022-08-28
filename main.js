@@ -20,16 +20,16 @@ class Game {
         this.#createRooms()
     }
     update(){
-        this.player.update(playerObj, this.input.keys, this.input.lastKey, borders)
+        this.player.update(this.input.keys, this.input.lastKey, borders)
     }
     #createRooms() {
-        //createRooms({position:{top: '25%', left: "50%"}, direction: "Vertical" })
-        //createRooms({position:{top: '75%', left: "50%"}, direction: "Vertical" })
+        createRooms({position:{top: '25%', left: "50%"}, direction: "Vertical" })
+        createRooms({position:{top: '75%', left: "50%"}, direction: "Vertical" })
         createRooms({position:{top: '50%', left: "50%"}, direction: "Horizontal" })
-       // createRooms({position:{top: '50%', left: "25%"}, direction: "Vertical" })
-        //createRooms({position:{top: '50%', left: "75%"}, direction: "Vertical" })
-        //createRooms({position:{top: '90%', left: "90%"}, direction: "Horizontal" })
-        //createRooms({position:{top: '10%', left: "10%"}, direction: "Horizontal" })
+        createRooms({position:{top: '50%', left: "25%"}, direction: "Vertical" })
+        createRooms({position:{top: '50%', left: "75%"}, direction: "Vertical" })
+        createRooms({position:{top: '90%', left: "90%"}, direction: "Horizontal" })
+        createRooms({position:{top: '10%', left: "10%"}, direction: "Horizontal" })
     }
 }
 

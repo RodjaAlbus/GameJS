@@ -53,6 +53,7 @@
 }
 
 .topDoor{
+    display:none;
     position: absolute;
     left: 33%;
     background-color: var(--doorColor);
@@ -61,6 +62,7 @@
 }
 
 .bottomDoor{
+    display:none;
     position: absolute;
     left: 33%;
     top: 95%;
